@@ -1,0 +1,86 @@
+2025-06-24T02:40:32.943103 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 0.0s
+2025-06-24T02:40:33.949936 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 1.0s
+2025-06-24T02:40:34.975326 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 2.1s
+2025-06-24T02:40:35.989286 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 3.1s
+2025-06-24T02:40:36.995998 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 4.1s
+2025-06-24T02:40:38.005056 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 5.1s
+2025-06-24T02:40:39.018404 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 6.1s
+2025-06-24T02:40:40.025360 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 7.1s
+2025-06-24T02:40:41.039215 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 8.1s
+2025-06-24T02:40:42.052184 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 1 | Keys: 0 | Idle: 1.0s
+2025-06-24T02:40:43.065511 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 5 | Keys: 0 | Idle: 0.2s
+2025-06-24T02:40:44.078645 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 2 | Keys: 0 | Idle: 0.4s
+2025-06-24T02:40:45.092151 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 2 | Keys: 0 | Idle: 0.0s
+2025-06-24T02:40:46.131919 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 5 | Keys: 0 | Idle: 0.3s
+2025-06-24T02:40:47.145576 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 1.3s
+2025-06-24T02:40:48.159547 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 2.3s
+2025-06-24T02:40:49.173641 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 3.3s
+2025-06-24T02:40:50.187716 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 4.3s
+2025-06-24T02:40:51.194733 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 5.3s
+2025-06-24T02:40:52.207987 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 6.4s
+2025-06-24T02:40:53.221969 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 2 | Idle: 0.7s
+2025-06-24T02:40:54.234227 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 1.7s
+2025-06-24T02:40:55.248108 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 2.7s
+2025-06-24T02:40:56.261413 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 3.7s
+2025-06-24T02:40:57.274018 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 1 | Keys: 0 | Idle: 0.8s
+2025-06-24T02:40:58.286730 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 3 | Idle: 0.1s
+2025-06-24T02:40:59.313007 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 1.2s
+2025-06-24T02:41:00.322966 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 1 | Keys: 0 | Idle: 0.4s
+2025-06-24T02:41:01.329985 | ACTIVE | Category: Other | App: Unknown | Window: Unknown | Mouse: 0 | Keys: 0 | Idle: 1.4s
+2025-06-24T02:42:25.011543 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 0 | Keys: 0 | Idle: 0.0s
+2025-06-24T02:42:26.019268 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 0 | Keys: 0 | Idle: 1.0s
+2025-06-24T02:42:27.032493 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 0 | Keys: 0 | Idle: 2.1s
+2025-06-24T02:42:28.039735 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 0 | Keys: 0 | Idle: 3.1s
+2025-06-24T02:42:29.053876 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 1 | Keys: 0 | Idle: 0.2s
+2025-06-24T02:42:30.068307 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 1 | Keys: 0 | Idle: 0.3s
+2025-06-24T02:42:31.081905 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 1 | Keys: 0 | Idle: 0.4s
+2025-06-24T02:42:32.095485 | ACTIVE | Category: Other | App: SearchHost.exe | Window: Search | Mouse: 0 | Keys: 5 | Idle: 0.5s
+2025-06-24T02:42:33.105008 | ACTIVE | Category: Other | App: SearchHost.exe | Window: Search | Mouse: 0 | Keys: 6 | Idle: 0.0s
+2025-06-24T02:42:34.112002 | ACTIVE | Category: Other | App: SearchHost.exe | Window: Search | Mouse: 0 | Keys: 9 | Idle: 0.5s
+2025-06-24T02:42:35.125470 | ACTIVE | Category: Other | App: SearchHost.exe | Window: Search | Mouse: 0 | Keys: 0 | Idle: 1.5s
+2025-06-24T02:42:36.132147 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 1 | Keys: 0 | Idle: 1.0s
+2025-06-24T02:42:37.146022 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 0 | Idle: 2.0s
+2025-06-24T02:42:38.155144 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 0 | Idle: 3.0s
+2025-06-24T02:42:39.167909 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 0 | Idle: 4.0s
+2025-06-24T02:42:40.182418 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 1 | Idle: 0.1s
+2025-06-24T02:42:41.196633 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 0 | Idle: 1.1s
+2025-06-24T02:42:42.211026 | ACTIVE | Category: Web Browsing | App: chrome.exe | Window: Ah, got it — you’re building a | Mouse: 1 | Keys: 0 | Idle: 0.7s
+2025-06-24T02:42:43.225201 | ACTIVE | Category: Other | App: ApplicationFrameHost.exe | Window: WhatsApp | Mouse: 1 | Keys: 0 | Idle: 0.9s
+2025-06-24T02:42:44.231866 | ACTIVE | Category: Other | App: ApplicationFrameHost.exe | Window: WhatsApp | Mouse: 0 | Keys: 0 | Idle: 1.9s
+2025-06-24T02:42:45.245180 | ACTIVE | Category: Other | App: ApplicationFrameHost.exe | Window: WhatsApp | Mouse: 1 | Keys: 0 | Idle: 0.5s
+2025-06-24T02:42:46.258921 | ACTIVE | Category: Other | App: ApplicationFrameHost.exe | Window: WhatsApp | Mouse: 2 | Keys: 0 | Idle: 0.0s
+2025-06-24T02:42:47.266245 | ACTIVE | Category: Other | App: ApplicationFrameHost.exe | Window: WhatsApp | Mouse: 1 | Keys: 0 | Idle: 0.4s
+2025-06-24T02:42:48.273494 | ACTIVE | Category: Other | App: ApplicationFrameHost.exe | Window: WhatsApp | Mouse: 3 | Keys: 0 | Idle: 0.1s
+2025-06-24T02:42:49.280215 | ACTIVE | Category: Other | App: ApplicationFrameHost.exe | Window: WhatsApp | Mouse: 6 | Keys: 0 | Idle: 0.2s
+2025-06-24T02:42:50.289758 | ACTIVE | Category: Other | App: ApplicationFrameHost.exe | Window: WhatsApp | Mouse: 3 | Keys: 0 | Idle: 0.4s
+2025-06-24T02:42:51.298216 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 1 | Keys: 0 | Idle: 0.3s
+2025-06-24T02:42:52.303486 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 0 | Idle: 1.3s
+2025-06-24T02:42:53.318036 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 2 | Keys: 0 | Idle: 0.4s
+2025-06-24T02:42:54.329934 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 0 | Keys: 0 | Idle: 1.4s
+2025-06-24T02:42:55.337040 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 0 | Keys: 0 | Idle: 2.4s
+2025-06-24T02:42:56.345295 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 0 | Keys: 0 | Idle: 3.4s
+2025-06-24T02:42:57.353449 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 1 | Keys: 0 | Idle: 0.9s
+2025-06-24T02:42:58.381272 | ACTIVE | Category: Other | App: ONENOTE.EXE | Window: OneNote | Mouse: 0 | Keys: 0 | Idle: 1.9s
+2025-06-24T02:42:59.389709 | ACTIVE | Category: Other | App: ONENOTE.EXE | Window: ilovepdf_merged - OneNote | Mouse: 0 | Keys: 0 | Idle: 2.9s
+2025-06-24T02:43:00.397158 | ACTIVE | Category: Other | App: ONENOTE.EXE | Window: ilovepdf_merged - OneNote | Mouse: 1 | Keys: 0 | Idle: 0.3s
+2025-06-24T02:43:01.403795 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 0 | Idle: 1.3s
+2025-06-24T02:43:02.412563 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 0 | Idle: 2.3s
+2025-06-24T02:43:03.422706 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 0 | Idle: 3.3s
+2025-06-24T02:43:04.429941 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 0 | Idle: 4.3s
+2025-06-24T02:43:05.437480 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 0 | Idle: 5.3s
+2025-06-24T02:43:06.451127 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 1 | Keys: 0 | Idle: 0.4s
+2025-06-24T02:43:07.458891 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 1 | Keys: 0 | Idle: 0.5s
+2025-06-24T02:43:08.465803 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 2 | Keys: 0 | Idle: 0.1s
+2025-06-24T02:43:09.475889 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 0 | Keys: 0 | Idle: 1.1s
+2025-06-24T02:43:10.482770 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 2 | Keys: 0 | Idle: 0.3s
+2025-06-24T02:43:11.492159 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 0 | Keys: 0 | Idle: 1.3s
+2025-06-24T02:43:12.498184 | ACTIVE | Category: File Management | App: explorer.exe | Window:  | Mouse: 1 | Keys: 0 | Idle: 0.9s
+2025-06-24T02:43:13.505014 | ACTIVE | Category: Other | App: psiphon-185.20250223131130-installer.exe | Window: Psiphon 3 | Mouse: 0 | Keys: 0 | Idle: 1.9s
+2025-06-24T02:43:14.512159 | ACTIVE | Category: Other | App: Discord.exe | Window: Friends - Discord | Mouse: 0 | Keys: 0 | Idle: 2.9s
+2025-06-24T02:43:15.518359 | ACTIVE | Category: Other | App: Discord.exe | Window: Friends - Discord | Mouse: 1 | Keys: 0 | Idle: 0.2s
+2025-06-24T02:43:16.525572 | ACTIVE | Category: Other | App: psiphon-185.20250223131130-installer.exe | Window: Psiphon 3 | Mouse: 0 | Keys: 0 | Idle: 1.2s
+2025-06-24T02:43:17.535753 | ACTIVE | Category: Other | App: psiphon-185.20250223131130-installer.exe | Window: Psiphon 3 | Mouse: 0 | Keys: 0 | Idle: 2.2s
+2025-06-24T02:43:18.543822 | ACTIVE | Category: Other | App: psiphon-185.20250223131130-installer.exe | Window: Psiphon 3 | Mouse: 0 | Keys: 0 | Idle: 3.2s
+2025-06-24T02:43:19.553187 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 0 | Keys: 0 | Idle: 4.3s
+2025-06-24T02:43:20.562783 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 0 | Keys: 0 | Idle: 5.3s
+2025-06-24T02:43:21.569231 | ACTIVE | Category: Development | App: Code.exe | Window: enhanced_tracker.py - activity | Mouse: 0 | Keys: 0 | Idle: 6.3s
