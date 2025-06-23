@@ -4,7 +4,7 @@ import sqlite3
 from datetime import datetime
 from pynput import mouse, keyboard
 import win32gui
-import win32process  # Add this import
+import win32process
 import threading
 import psutil
 
@@ -30,33 +30,39 @@ class EnhancedActivityTracker:
             "notepad++.exe": "Text Editing",
             "slack.exe": "Communication",
             "teams.exe": "Communication",
+            "discord.exe": "Communication",
             "outlook.exe": "Email",
             "explorer.exe": "File Management",
             "cmd.exe": "Terminal",
             "powershell.exe": "Terminal",
-            "windowsterminal.exe": "Terminal"
+            "windowsterminal.exe": "Terminal",
+            "snippingtool.exe": "Utilities"
         }
         
         self.setup_database()
         
     def setup_database(self):
         """Initialize enhanced SQLite database"""
-        self.conn = sqlite3.connect('enhanced_activity_log.db', check_same_thread=False)
-        self.cursor = self.conn.cursor()
-        self.cursor.execute('''
-            CREATE TABLE IF NOT EXISTS activity_logs (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                timestamp TEXT,
-                window_title TEXT,
-                process_name TEXT,
-                category TEXT,
-                mouse_clicks INTEGER,
-                key_presses INTEGER,
-                idle_time REAL,
-                is_active BOOLEAN
-            )
-        ''')
-        self.conn.commit()
+        try:
+            self.conn = sqlite3.connect('enhanced_activity_log.db', check_same_thread=False)
+            self.cursor = self.conn.cursor()
+            self.cursor.execute('''
+                CREATE TABLE IF NOT EXISTS activity_logs (
+                    id INTEGER PRIMARY KEY AUTOINCREMENT,
+                    timestamp TEXT,
+                    window_title TEXT,
+                    process_name TEXT,
+                    category TEXT,
+                    mouse_clicks INTEGER,
+                    key_presses INTEGER,
+                    idle_time REAL,
+                    is_active BOOLEAN
+                )
+            ''')
+            self.conn.commit()
+            print("Database setup successful!")
+        except Exception as e:
+            print(f"Database setup error: {e}")
 
     def categorize_activity(self, process_name):
         """Categorize activity based on process name"""
@@ -72,12 +78,10 @@ class EnhancedActivityTracker:
         self.activity["last_input_time"] = time.time()
 
     def get_active_window(self):
-        """Get the currently active window title and process - FIXED VERSION"""
+        """Get the currently active window title and process"""
         try:
             hwnd = win32gui.GetForegroundWindow()
             window_title = win32gui.GetWindowText(hwnd)
-            
-            # Fix: Use win32process.GetWindowThreadProcessId instead of win32gui
             thread_id, pid = win32process.GetWindowThreadProcessId(hwnd)
             process = psutil.Process(pid)
             process_name = process.name()
@@ -95,27 +99,33 @@ class EnhancedActivityTracker:
         self.activity["category"] = category
         
         idle_time = time.time() - self.activity["last_input_time"]
-        is_active = idle_time < 30  # Consider active if idle < 30 seconds
+        is_active = idle_time < 30
         timestamp = datetime.now().isoformat()
         
-        # Log to database
-        self.cursor.execute('''
-            INSERT INTO activity_logs 
-            (timestamp, window_title, process_name, category, mouse_clicks, key_presses, idle_time, is_active)
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?)
-        ''', (timestamp, window_title, process_name, category,
-              self.activity["mouse_clicks"], self.activity["key_presses"], idle_time, is_active))
-        self.conn.commit()
-        
-        # Enhanced logging with categories
-        status = "ACTIVE" if is_active else "IDLE"
-        log_line = f"{timestamp} | {status} | Category: {category} | App: {process_name} | Window: {window_title[:30]} | Mouse: {self.activity['mouse_clicks']} | Keys: {self.activity['key_presses']} | Idle: {idle_time:.1f}s\n"
-        
-        with open("enhanced_usage_log.txt", "a", encoding='utf-8') as f:
-            f.write(log_line)
-        
-        # Print to console for real-time feedback
-        print(f"{status} | {category:12} | {process_name:15} | Mouse: {self.activity['mouse_clicks']:2} | Keys: {self.activity['key_presses']:2} | Idle: {idle_time:.1f}s")
+        try:
+            # Log to database with explicit commit
+            self.cursor.execute('''
+                INSERT INTO activity_logs 
+                (timestamp, window_title, process_name, category, mouse_clicks, key_presses, idle_time, is_active)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (timestamp, window_title, process_name, category,
+                  self.activity["mouse_clicks"], self.activity["key_presses"], idle_time, is_active))
+            
+            # FORCE COMMIT
+            self.conn.commit()
+            
+            # Log to text file
+            status = "ACTIVE" if is_active else "IDLE"
+            log_line = f"{timestamp} | {status} | Category: {category} | App: {process_name} | Window: {window_title[:30]} | Mouse: {self.activity['mouse_clicks']} | Keys: {self.activity['key_presses']} | Idle: {idle_time:.1f}s\n"
+            
+            with open("enhanced_usage_log.txt", "a", encoding='utf-8') as f:
+                f.write(log_line)
+            
+            # Print to console
+            print(f"{status} | {category:12} | {process_name:15} | Mouse: {self.activity['mouse_clicks']:2} | Keys: {self.activity['key_presses']:2} | Idle: {idle_time:.1f}s")
+            
+        except Exception as e:
+            print(f"Error logging to database: {e}")
         
         # Reset counters
         self.activity["mouse_clicks"] = 0
